@@ -14,6 +14,8 @@ This code will be very helpful if one needs a large amount of random numbers at 
 
 ## Inventory
 This repository essentially comprises a `Python 3` script `provider.py` and a random-bit file `2019-10-24.bin`, where the latter is retrieved from RANDOM.ORG at the time of creating this repo.
+The exemplary random-bit file is of size `1 MiB`, which contains `8,388,608` random bits in total.
+Should the user need more than those bits, it is advised to download multiple files from RANDOM.ORG and combine them into a single file.
 
 In the program script, it contains just one class `Provide` with three methods defined: `integer`, `uniform`, and `gaussian`, each of which aims at one specific category of random numbers.
 
